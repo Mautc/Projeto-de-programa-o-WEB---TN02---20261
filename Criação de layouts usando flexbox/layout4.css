@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.linha {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.linha h2 {
+    color: #4da6ff;
+    margin-bottom: 16px;
+    border: 1px dashed #4da6ff;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.cards {
+    display: flex;
+    gap: 5px;
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 170px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.numero {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #222;
+    -webkit-text-stroke: 2px #777;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 1;
+}
+
+.capa {
+    width: 130px;
+    height: 100%;
+    background-color: #333;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    color: #aaa;
+}
+
+.features {
+    display: flex;
+    gap: 12px;
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+.feat {
+    flex: 1;
+    background-color: #1f2040;
+    border: 2px solid purple;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 180px;
+}
+
+.feat h3 {
+    font-size: 1.2rem;
+    border: 1px dashed purple;
+    padding: 5px;
+}
+
+.feat p {
+    font-size: 0.9rem;
+    color: #ccc;
+    border: 1px dashed #555;
+    padding: 5px;
+}
+
+.icone {
+    font-size: 2rem;
+    align-self: flex-end;
+    border: 1px solid purple;
+    padding: 4px 8px;
+}

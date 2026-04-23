@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #111;
+    border: 2px solid blue;
+    height: 65px;
+}
+
+.logo {
+    background-color: #0061ff;
+    padding: 8px 15px;
+    border: 1px solid #004cc4;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 1px dashed gray;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #444;
+}
+
+nav .btn {
+    background-color: #0061ff;
+    padding: 8px 16px;
+}
+
+.hero {
+    display: flex;
+    height: calc(100vh - 65px);
+    border: 2px solid orange;
+}
+
+.esquerda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    border: 2px dashed orange;
+}
+
+.esquerda h1 {
+    font-size: 2.5rem;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+.esquerda p {
+    color: #ccc;
+    border: 1px dashed #666;
+    padding: 8px;
+}
+
+.btn-cta {
+    background-color: #4da6ff;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    width: fit-content;
+    border: 2px solid #0061ff;
+}
+
+.btn-link {
+    color: white;
+    text-decoration: underline;
+    border: 1px dashed #666;
+    padding: 5px;
+    width: fit-content;
+}
+
+.direita {
+    flex: 1;
+    background-color: #2a2a2a;
+    border: 2px dashed orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    width: 70%;
+    height: 60%;
+    background-color: #3a3a3a;
+    border: 3px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+}
