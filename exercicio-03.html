@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal O Observador</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; }
+        header { background: #222; color: #fff; padding: 20px; text-align: center; }
+        nav { background: #0056b3; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        main { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        .destaque { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 30px; border-left: 6px solid #0056b3; }
+        .secundarias { display: flex; gap: 20px; }
+        .noticia { background: white; padding: 20px; border-radius: 8px; flex: 1; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>O Observador</h1>
+        <p>A notícia na velocidade do mundo</p>
+    </header>
+
+    <nav>
+        <a href="#politica">Política</a>
+        <a href="#esporte">Esporte</a>
+        <a href="#tecnologia">Tecnologia</a>
+    </nav>
+
+    <main>
+        <section class="destaque">
+            <span style="color: #0056b3; font-weight: bold;">TECNOLOGIA</span>
+            <h2>Inteligência Artificial revoluciona a descoberta de novos medicamentos</h2>
+            <p>Laboratórios de todo o mundo estão utilizando novos modelos preditivos que reduzem o tempo de testes de décadas para apenas alguns meses, prometendo a cura para doenças até então intratáveis.</p>
+            <a href="#">Ler matéria completa &raquo;</a>
+        </section>
+
+        <section class="secundarias">
+            <article class="noticia">
+                <span style="color: #777; font-size: 0.9em;">POLÍTICA</span>
+                <h3>Congresso aprova novo marco regulatório da internet</h3>
+                <p>Após longos debates, as novas regras para proteção de dados e privacidade online entram em vigor a partir do próximo ano.</p>
+            </article>
+
+            <article class="noticia">
+                <span style="color: #777; font-size: 0.9em;">ESPORTE</span>
+                <h3>Seleção vence amistoso com placar histórico</h3>
+                <p>A equipe nacional goleou os adversários por 6 a 0 em um jogo marcado por estréias de novos talentos da base.</p>
+            </article>
+
+            <article class="noticia">
+                <span style="color: #777; font-size: 0.9em;">TECNOLOGIA</span>
+                <h3>Lançamento do Quantum X1</h3>
+                <p>O primeiro computador quântico de uso comercial chega às prateleiras e esgota estoques em apenas 3 minutos.</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
